@@ -15,4 +15,4 @@ sed -i '/<\/tomcat-users>/i \
 <role rolename="manager-gui"/>\
 <role rolename="admin-gui"/>\
 <user username="manager" password="12345" roles="manager-gui"/>\
-<user username="admin" password="12345" roles="admin-gui"/>' /opt/apache-tomcat9/conf/tomcat-users.xml
+<user username="admin" password="123456" roles="admin-gui"/>' /opt/apache-tomcat9/conf/tomcat-users.xml
